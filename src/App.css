@@ -12,7 +12,19 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.button-wrapper button {
+  background-color: azure;
+  border: 1px;
+  border-radius: 4px;
+  color: burlywood;
+}
 
+.image-wrapper img {
+  width: 100px;
+  height: 100px;
+  width: 70x;
+  border: 1px silver;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +35,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
+  border: 2px saddlebrown;
+}
 
+.add_to_cart img {
+  height: 100px;
+  width: 100px;
+}
+.item {
+  flex-direction: column-reverse;
+  float: left;
+}
 .App-link {
   color: #61dafb;
 }
